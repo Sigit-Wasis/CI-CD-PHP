@@ -13,5 +13,6 @@ class DependencyFailureTest extends TestCase
      */
     public function testTwo()
     {
+    	$this->assertEquals(10, 8 + 1);
     }
 }
