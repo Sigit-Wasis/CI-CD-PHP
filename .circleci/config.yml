@@ -37,5 +37,4 @@ jobs:
       - run: yarn install
 
       # run tests with phpunit or codecept
-      #- run: ./vendor/bin/phpunit
-      - run: phpunit .
+      - run: ./vendor/bin/phpunit .
